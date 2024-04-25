@@ -17,11 +17,12 @@ export const Hero = () => {
                'alignItems': 'center',
                'width': '100%',
                '@sm': {
-                  flexDirection: 'row',
+                  flexDirection: 'column',
                   mt: '$20',
                },
             }}
             justify={'center'}
+
          >
             <Box
                css={{
@@ -33,9 +34,9 @@ export const Hero = () => {
                }}
             >
                <Box
-                  // 居中
                   css={{
                      maxWidth: '800px',
+                     textAlign: 'center',
                   }}
                >
                   <Text
@@ -51,6 +52,7 @@ export const Hero = () => {
                      css={{
                         display: 'inline',
                      }}
+
                   >
                      with{' '}
                   </Text>
@@ -60,6 +62,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                      color="primary"
+
                   >
                      ReadLecture
                   </Text>
@@ -68,29 +71,30 @@ export const Hero = () => {
                <Text
                   css={{
                      color: '$accents8',
+                     textAlign: 'center',
                      // maxWidth: '400px',
                   }}
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  The easiest way to  on your project.
                </Text>
-
-              
             </Box>
-            {/* <Box>
+            <Box>
             <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
+                     width: '100%',
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  <Input
+                  placeholder="http://bilibili.com/video" size="lg" />
+                  <Button
+                  >generate</Button>
                </Flex>
-            </Box> */}
+            </Box>
          </Flex>
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}
