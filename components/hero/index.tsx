@@ -34,7 +34,6 @@ export const Hero = () => {
             >
                <Box
                   // 居中
-                  
                   css={{
                      maxWidth: '800px',
                   }}
