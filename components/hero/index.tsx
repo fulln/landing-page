@@ -33,8 +33,10 @@ export const Hero = () => {
                }}
             >
                <Box
+                  // 居中
+                  
                   css={{
-                     maxWidth: '600px',
+                     maxWidth: '800px',
                   }}
                >
                   <Text
@@ -43,7 +45,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Turn Videos into Readable Content  {' '}
                   </Text>
                   <Text
                      h1
@@ -51,7 +53,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+                     with{' '}
                   </Text>
                   <Text
                      h1
@@ -60,14 +62,14 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     ReadLecture
                   </Text>
                </Box>
 
                <Text
                   css={{
                      color: '$accents8',
-                     maxWidth: '400px',
+                     // maxWidth: '400px',
                   }}
                   size={'$lg'}
                   span
@@ -76,7 +78,10 @@ export const Hero = () => {
                   time and focus on your project.
                </Text>
 
-               <Flex
+              
+            </Box>
+            {/* <Box>
+            <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
@@ -86,52 +91,7 @@ export const Hero = () => {
                   <Input placeholder="Enter your email address" size="lg" />
                   <Button>Start Free Trial</Button>
                </Flex>
-               <Flex
-                  wrap={'wrap'}
-                  css={{
-                     'gap': '$8',
-                     'py': '$7',
-                     '@sm': {
-                        py: '$4',
-                     },
-                  }}
-               >
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> Cancel anytime.
-                  </Flex>
-               </Flex>
-            </Box>
-            <Box
-               css={{
-                  '& img': {
-                     width: '775px',
-                     objectFit: 'contain',
-                  },
-               }}
-            >
-               <img src="mock.png" />
-            </Box>
+            </Box> */}
          </Flex>
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}

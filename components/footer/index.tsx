@@ -205,10 +205,7 @@ export const Footer = () => {
                      }}
                      wrap={'wrap'}
                   >
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
+                     
                   </Flex>
                   <Flex
                      css={{
@@ -228,7 +225,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2024 ReadLecture Inc.
                      </Text>
                   </Flex>
                </Flex>
