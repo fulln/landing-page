@@ -7,7 +7,12 @@ import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
 
+
 export const Nav = () => {
+   
+   const handleClick = () => {
+      window.location.href = 'https://dashboard-lecture.vercel.app/'
+   };
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
@@ -161,9 +166,8 @@ export const Nav = () => {
          </Navbar.Collapse>
          <Navbar.Content>
             <ModalLogin />
-
             <Navbar.Item>
-               <Button auto flat href="#">
+               <Button auto flat onClick={handleClick}>
                   Start free trial
                </Button>
             </Navbar.Item>
