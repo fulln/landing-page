@@ -13,7 +13,7 @@ export const Footer = () => {
          }}
       >
          <Box as={'footer'} css={{width: '100%'}}>
-            <Flex
+            {/* <Flex
                justify={'center'}
                wrap={'wrap'}
                align={'center'}
@@ -24,8 +24,8 @@ export const Footer = () => {
                   },
                   '@sm': {},
                }}
-            >
-               <Flex
+            > */}
+               {/* <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
                   align={'center'}
@@ -140,8 +140,8 @@ export const Footer = () => {
                         </Text>
                      </Box>
                   </Box>
-               </Flex>
-               <Flex
+               </Flex> */}
+               {/* <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
                   align={'center'}
@@ -169,8 +169,8 @@ export const Footer = () => {
                         </Text>
                      </Box>
                   </Box>
-               </Flex>
-            </Flex>
+               </Flex> */}
+            {/* </Flex> */}
             <Box
                css={{
                   'px': '$10',

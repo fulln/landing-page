@@ -27,12 +27,12 @@ export const Trial = () => {
                condimentum, nisl
             </Text>
 
-            <Button>Button</Button>
+            <Button>start free trail</Button>
          </Flex>
-
+{/* 
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
-         />
+         /> */}
       </>
    );
 };
