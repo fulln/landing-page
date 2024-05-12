@@ -16,10 +16,10 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'Features',
-      'Customers',
-      'Pricing',
-      'Company',
+      // 'Features',
+      // 'Customers',
+      // 'Pricing',
+      // 'Company',
       'Legal',
    ];
    return (
@@ -45,7 +45,7 @@ export const Nav = () => {
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+               {/* <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -125,7 +125,7 @@ export const Nav = () => {
                   Customers
                </Navbar.Link>
                <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
+               <Navbar.Link href="#">Company</Navbar.Link> */}
             </Navbar.Content>
          </Navbar.Brand>
 
