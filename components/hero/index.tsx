@@ -27,19 +27,19 @@ export const Hero = () => {
                <Text
                      h1
                      css={{
-                        display: 'inline',
+                        display: 'column',
                      }}
                   >
-                    transform lecture videos into rich textual content {' '}
+                    轻松视频转图文
                   </Text>
                   <Text
                      h1
                      css={{
-                        display: 'inline',
+                        display: 'column',
                      }}
 
                   >
-                     with{' '}
+                     加速课程学习与传播
                   </Text>
                   <Text
                      h1
@@ -63,11 +63,9 @@ export const Hero = () => {
                               </svg>
                            </div>
 
-                           <input type="text" name="" id="" placeholder="youtube, bilibili url etc..." className="block w-full py-3 pl-10 pr-4 text-base font-normal leading-7 text-gray-900 placeholder-gray-500 bg-white border border-white focus:ring-white focus:border-white focus:ring-offset-2" />
+                           <input type="text" name="" id="" placeholder="BiliBili, YouTube url etc..." className="block w-full py-3 pl-10 pr-4 text-base font-normal leading-7 text-gray-900 placeholder-gray-500 bg-white border border-white focus:ring-white focus:border-white focus:ring-offset-2" />
                         </div>
-                     </div>
-
-                     <div>
+                     <br />
                         <button
                            type="submit"
                            className="
