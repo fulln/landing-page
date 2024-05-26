@@ -199,7 +199,7 @@ export const Footer = () => {
                      },
                   }}
                >
-                  <Flex
+                  {/* <Flex
                      css={{
                         gap: '$3',
                      }}
@@ -209,7 +209,7 @@ export const Footer = () => {
                           powerde by
                           <Avatar src={'/logo.png'} alt={'logo'}  />
                       </Text>
-                  </Flex>
+                  </Flex> */}
                   <Flex
                      css={{
                         gap: '$3',
