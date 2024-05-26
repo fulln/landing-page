@@ -6,14 +6,12 @@ export const AcmeLogo = () => (
         version="1.1"
         xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         viewBox="0 0 600 850"
+        width="64"
+        height="64"
         css={{
             "enable-background": "new 0 0 8 8",
             'width': '100%',
             'height': '100%',
-            '@sm': {
-                width: '100px',
-                height: '100px',
-            },
             '.st0': {fill: '#587FA9'},
             '.st1': {fill: '#ED7367'},
             '.st2': {fill: '#FFFFFF'},

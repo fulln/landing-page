@@ -58,9 +58,10 @@ export const Hero = () => {
                                 color: '$accents7',
                                 alignItems: 'center',
                             }}
+                            justify={'center'}
                         >
-                            <QuotesIcon />  即将上线，敬请期待！
-                            (关注公众号ReadLecture获取更多信息)
+                            {/*<QuotesIcon />*/}
+                            关注公众号ReadLecture获取更多信息
                         </Flex>
                         <Flex
                             css={{
