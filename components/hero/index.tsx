@@ -64,6 +64,7 @@ export const Hero = () => {
                         </Flex>
                         <Flex
                             css={{
+                                'marginTop': '$10',
                                 'flexDirection': 'column',
                                 'alignContent': 'center',
                                 'justifyContent': 'center',
