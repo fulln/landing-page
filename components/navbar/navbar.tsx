@@ -165,12 +165,12 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
-            <Navbar.Item>
-               <Button auto flat onClick={handleClick}>
-                  Start free trial
-               </Button>
-            </Navbar.Item>
+            {/*<ModalLogin />*/}
+            {/*<Navbar.Item>*/}
+            {/*   <Button auto flat onClick={handleClick}>*/}
+            {/*      Start free trial*/}
+            {/*   </Button>*/}
+            {/*</Navbar.Item>*/}
             <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
@@ -178,7 +178,7 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/ReadLecture/landing-page"
                >
                   <GithubIcon />
                </Link>
