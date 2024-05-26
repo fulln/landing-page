@@ -173,7 +173,7 @@ export const Footer = () => {
             {/* </Flex> */}
             <Box
                css={{
-                  'px': '$10',
+                  'px': '$20',
                   '@md': {
                      px: '$56',
                   },
@@ -187,12 +187,12 @@ export const Footer = () => {
                   }}
                />
                <Flex
-                  //   justify={'between'}
-                  align={'center'}
+                    justify={'between'}
+                  // align={'left'}
                   wrap={'wrap'}
                   css={{
                      'pt': '$8',
-                     'gap': '$10',
+                     'gap': '$4',
                      'justifyContent': 'center',
                      '@md': {
                         justifyContent: 'space-between',
@@ -201,15 +201,14 @@ export const Footer = () => {
                >
                   <Flex
                      css={{
-                        gap: '$10',
+                        gap: '$3',
                      }}
                      wrap={'wrap'}
                   >
-                     
                   </Flex>
                   <Flex
                      css={{
-                        gap: '$6',
+                        gap: '$3',
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
