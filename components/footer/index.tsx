@@ -1,4 +1,4 @@
-import {Divider, Text} from '@nextui-org/react';
+import {Avatar, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
@@ -199,21 +199,22 @@ export const Footer = () => {
                      },
                   }}
                >
-                  <Flex
+                  {/* <Flex
                      css={{
                         gap: '$3',
                      }}
                      wrap={'wrap'}
                   >
-                  </Flex>
+                      <Text span css={{color: '$accents8'}}>
+                          powerde by
+                          <Avatar src={'/logo.png'} alt={'logo'}  />
+                      </Text>
+                  </Flex> */}
                   <Flex
                      css={{
                         gap: '$3',
                      }}
                   >
-                     <Text span css={{color: '$accents8'}}>
-                        Terms of Service
-                     </Text>
                      <Text span css={{color: '$accents8'}}>
                         Privacy Policy
                      </Text>
